@@ -1,4 +1,5 @@
 
+import Bannar from './Bannar'
 import NavBar from './NavBar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <NavBar/>
+      <Bannar/>
     
     </>
   )
