@@ -1,36 +1,92 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 🚀 DevStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> A modern and interactive technology stack explorer built with React and TypeScript.
 
-Currently, two official plugins are available:
+DevStack is a web application where users can explore different technologies used in modern web development. Technologies are organized by category, difficulty, rating, and other useful information. Users can also select technologies and build their own personal technology stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
 
-## React Compiler
+- ⚛️ React
+- 📘 TypeScript
+- 🎨 Tailwind CSS
+- 🌐 HTML
+- 💻 JavaScript
+- ⚡ Vite
+- 🔔 React Toastify
+- 🐙 Git & GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+### 1. 🔍 Explore Technologies
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Browse different technologies across categories such as:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- Frontend
+- Backend
+- Database
+- Language
+- Styling
+- DevOps
+- Tools
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
-=======
-# DevStack
->>>>>>> f87ec5a04ec4c58b620f3c021e593bf06c21b22b
+Each technology includes its name, description, icon, rating, difficulty, and badge.
+
+### 2. 🧩 Build Your Own Stack
+
+Select your favorite technologies and create your own personalized technology stack.
+
+You can easily:
+
+- Add technologies
+- Remove individual technologies
+- Remove all selected technologies
+- See the total number of selected technologies
+
+### 3. 📱 Responsive & Interactive UI
+
+DevStack provides a clean and responsive user interface that works across different screen sizes.
+
+Interactive notifications are provided using **React Toastify** when technologies are added or removed.
+
+## 📸 Preview
+
+Coming soon...
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+
+
+
+1. What is JSX, and why is it used in React?
+
+JSX stands for JavaScript XML. It allows us to write HTML-like code inside JavaScript/TypeScript.
+
+2. What is the difference between Props and State?
+
+Props are data passed from a parent component to a child component. They are read-only.
+
+State is data that is managed inside a component and can change over time.
+
+
+3. What does the useState hook do, and where did you use it?
+
+useState allows a React component to store and update data that can change over time.
+
+4. What does the useEffect hook do, and why did you need it to load the JSON data?
+
+useEffect is used to perform side effects in a React component.
+
+5. Why does every item in a .map() list need a unique key prop?
+
+React needs a unique key to identify each item in a list.
+
+6. What is conditional rendering?
+
+Conditional rendering means displaying something only when a certain condition is true.
+
+7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+
+A parent sends data to a child using props.
+The child can send information back to the parent by calling a function passed through props.
