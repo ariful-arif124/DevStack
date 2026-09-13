@@ -1,7 +1,7 @@
 import type { Dispatch, SetStateAction } from "react";
 import type { TechType } from "../../Types/TechnologyType";
 import { toast } from "react-toastify";
-// import Technology from "./Technology";
+
 
 
 interface YourStackProps {

@@ -42,7 +42,7 @@ const TechnologyCard = ({
                 />
             </figure>
 
-            <p className="absolute top-4 right-4 bg-linear-to-r from-orange-500 to-pink-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
+            <p className="absolute top-4 right-4 bg-linear-to-r  text-black text-xs font-semibold px-3 py-1 rounded-full">
                 {Technology.badge}
             </p>
 

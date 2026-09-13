@@ -2,8 +2,6 @@ import { use, useState } from "react";
 import type { TechType } from "../../Types/TechnologyType";
 import AvailTechnology from "./AvailableTechnology";
 import YourStack from "./YourStack";
-// import AvailableTechnology from "./AvailableTechnology";
-// import YourStack from "./YourStack";
 
 
 interface TechProps {

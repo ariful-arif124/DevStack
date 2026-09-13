@@ -3,7 +3,7 @@ import { Suspense, useState } from 'react'
 import Bannar from './Bannar'
 import NavBar from './NavBar'
 import type { TechType } from './Types/TechnologyType';
-import { toast } from 'react-toastify/unstyled';
+import { toast } from 'react-toastify';
 import Technology from './Components/Technologies/Technology';
 import Footer from './Footer';
 
@@ -33,7 +33,7 @@ function App() {
           <Technology TechPromise={TechPromise}></Technology>
 
         </Suspense>
-        
+
 
         <Footer></Footer>
     
