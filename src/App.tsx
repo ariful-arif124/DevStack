@@ -33,6 +33,7 @@ function App() {
           <Technology TechPromise={TechPromise}></Technology>
 
         </Suspense>
+        
 
         <Footer></Footer>
     

@@ -1,6 +1,7 @@
 import { use, useState } from "react";
-import type { TechType } from "../Types/TechnologyType";
+import type { TechType } from "../../Types/TechnologyType";
 import AvailTechnology from "./AvailableTechnology";
+import YourStack from "./YourStack";
 // import AvailableTechnology from "./AvailableTechnology";
 // import YourStack from "./YourStack";
 
@@ -48,10 +49,10 @@ const Technology = ({ TechPromise }: TechProps) => {
 
                 <div className="lg:col-span-1 mt-7">
 
-                    {/* <YourStack
+                    <YourStack
                         selectedTechnology={selectedTechnology}
                         setSelectedTechnology={setSelectedTechnology}
-                    /> */}
+                    />
 
                 </div>
 

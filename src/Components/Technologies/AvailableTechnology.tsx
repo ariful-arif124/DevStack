@@ -1,6 +1,6 @@
 // import React from 'react';
 import type { Dispatch, SetStateAction } from "react";
-import type { TechType } from "../Types/TechnologyType";
+import type { TechType } from "../../Types/TechnologyType";
 import TechnologyCard from "./TechnologyCard";
 
 interface TechnologyProps {
